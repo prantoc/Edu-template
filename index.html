@@ -17,7 +17,7 @@
         <!-- header-section-start -->
         <header class="container">
             <!-- menu-section -->
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg fixed-top bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,9 +30,9 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                             <a class="nav-link" href="#course-section">Courses</a>
                             <a class="nav-link" href="#deals-section">Deals</a>
-                            <a class="nav-link" href="#">Success</a>
+                            <a class="nav-link" href="#question-section">FAQ</a>
                             <a class="nav-link" href="#">About</a>
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" href="#join-section">Register</a>
                         </div>
                     </div>
                 </div>
@@ -250,22 +250,71 @@
                         </p>
                         <div class="row mt-5">
                             <div class="col-6 col-lg-4">
-                                <h2 class="fw-bold lh-sm">3.2K+</h2>
-                                <p class="fw-bold lh-sm">Online Course</p>
+                                <h2 class="fw-semibold lh-sm">3.2K+</h2>
+                                <p class="fw-semibold lh-sm">Online Course</p>
                             </div>
                             <div class="col-6 col-lg-4">
-                                <h2 class="fw-bold lh-sm">600+</h2>
-                                <p class="fw-bold lh-sm">Expert member</p>
+                                <h2 class="fw-semibold lh-sm">600+</h2>
+                                <p class="fw-semibold lh-sm">Expert member</p>
                             </div>
                             <div class="col-6 col-lg-4">
-                                <h2 class="fw-bold lh-sm">3K+</h2>
-                                <p class="fw-bold lh-sm">Rating & Review</p>
+                                <h2 class="fw-semibold lh-sm">3K+</h2>
+                                <p class="fw-semibold lh-sm">Rating & Review</p>
                             </div>
                         </div>
                         <a href="#" class="btn btn-primary fw-semibold px-4 py-2">
                             Read More
                         </a>
                     </div>
+                </div>
+            </section>
+            <!-- join-section -->
+            <section id="join-section" class="mt-5 pt-5 rounded">
+                <div class="row p-5">
+                    <div class="col-12 col-md-10 lh-lg">
+                        <h1 class="text-white fw-bold">Ready to join?</h1>
+                        <p class="text-white">
+                            It is a long established fact that a reader will be distracted by the <br> readable content
+                            of a
+                            page when looking at its
+                            layout.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <button type="button" class="btn btn-light text-primary fw-semibold mt-4 px-4 py-2"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Register Now
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Woo-hoo, you're reading this text in a modal!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- frequently-asked-question-section -->
+            <section id="question-section" class="mb-5 pb-5">
+                <div class="question-section-heading text-center">
+                    <h1 class="fw-bold">Discover Our Popular Courses</h1>
+                    <p class="py-4 px-2">It is a long established fact that a reader will be distracted by the readable
+                        <br>
+                        content of a page
+                        when looking at its
+                        layout.
+                    </p>
                 </div>
             </section>
         </main>
