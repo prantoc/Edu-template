@@ -68,7 +68,7 @@ p {
 
 /* -------------------media-quries ---------------------*/
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
 
     /* header-slider-section */
     .caption-items-heading {
@@ -77,6 +77,6 @@ p {
 
     .caption-items-desc {
         color: #fff;
-        font-size: 11px;
+        font-size: 10px;
     }
 }
