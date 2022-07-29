@@ -6,6 +6,11 @@ body {
     font-weight: 500 !important;
 }
 
+p {
+    font-size: 15px;
+    color: #777777;
+}
+
 /* -------------------custom-styles -----------------------*/
 /* header-nav-bar */
 .nav-link {
@@ -31,9 +36,13 @@ body {
 }
 
 .caption-items-heading {
+    color: #fff;
     font-size: 64px !important;
 }
 
+.caption-items-desc {
+    color: #fff;
+}
 
 /* ----------------------course-section -----------------------*/
 .card-title {
@@ -44,6 +53,11 @@ body {
 .card-text {
     font-size: 15px;
     color: #777777;
+}
+
+/* ----------------------deals-section -----------------------*/
+#deals-section {
+    background: #F4FAFD !important;
 }
 
 
@@ -57,6 +71,7 @@ body {
     }
 
     .caption-items-desc {
+        color: #fff;
         font-size: 11px;
     }
 }
