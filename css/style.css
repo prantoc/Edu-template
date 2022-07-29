@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;800&display=swap');
 
+/* ---------------------defult-styles -----------------------*/
 body {
     font-family: 'Poppins', sans-serif !important;
     font-weight: 500 !important;
 }
 
-/* header-section */
+/* -------------------custom-styles -----------------------*/
+/* header-nav-bar */
+.nav-link {
+    font-size: 17px !important;
+    font-weight: 500 !important;
+}
+
+/* header-slider-section */
 .carousel-item img {
     max-height: 600px !important;
 }
@@ -22,12 +30,12 @@ body {
     border-radius: 5px;
 }
 
-/* .caption-items h1 {
+.caption-items-heading {
     font-size: 64px !important;
-} */
+}
 
 
-/* course-section */
+/* ----------------------course-section -----------------------*/
 .card-title {
     font-weight: 600;
     color: #4A4A4A;
@@ -36,4 +44,19 @@ body {
 .card-text {
     font-size: 15px;
     color: #777777;
+}
+
+
+/* -------------------media-quries ---------------------*/
+
+@media (max-width: 768px) {
+
+    /* header-slider-section */
+    .caption-items-heading {
+        font-size: 20px !important;
+    }
+
+    .caption-items-desc {
+        font-size: 11px;
+    }
 }
